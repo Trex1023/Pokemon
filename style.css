@@ -1,0 +1,154 @@
+.img{display: flex;}
+h1{text-align: center; text-transform: capitalize;}
+.borde{
+   
+    padding: 5px;
+    margin: 10px;
+    
+}
+body{
+    margin: 0px;
+    background-color: red;
+    font-family: monospace;
+}
+.blanco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 10vh;
+    border-radius:100%;
+    background-color: white;
+}
+.azul{
+    width: 8vw;
+    height: 8vh;
+    border-radius:100%;
+    background-color: rgb(5, 5, 61);
+}
+.rojo{
+    width: 3vw;
+    height: 3vh;
+    border-radius:100%;
+    background-color: darkred;
+    margin-right: 5px;
+}
+.rojo2{
+    width: 4vw;
+    height: 4vh;
+    border-radius:100%;
+    background-color: red;
+    margin-right: 5px;
+}
+.bb{
+    height: 50vh;
+}
+.amarillo{
+    margin-right: 5px;
+    width: 3vw;
+    height: 3vh;
+    border-radius:100%;
+    background-color: yellow;
+}
+.verde{
+    width: 3vw;
+    height: 3vh;
+    border-radius:100%;
+    background-color: green;
+}
+.izq{
+    width: 50vw;
+    border-bottom: 2px solid black;
+    display: flex;
+}
+header{
+    display: flex;
+   
+}
+.der1{
+    height: 4vh;
+}
+.der2{
+    height: 8vh;
+    background-color: brown;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 10px 10px 10px -10px;
+}
+.derecha{
+    display: block;
+    width: 50vw;
+}
+section{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: brown;
+    padding-top: 7vh;
+    
+}
+.bordeB{
+    height: 58vh;
+    width: 50vw;
+    background-color: gainsboro;
+    border-radius: 5px 5px 5px 60px;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    background-color: lightblue;
+    border-radius: 10px;
+    height: 50vh;
+    width: 45vw; 
+   
+    margin-top: 10px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+}
+.elementos{
+    height: 10vh;
+    width: 40vw;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{ 
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 255px;
+    height: 255px;
+}
+footer{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    box-sizing: border-box;
+}
+input, button{
+    margin-top: 5vh;
+    height: 10vh;
+    border-radius: 20px;
+    font-size: 25px;
+    padding-bottom: 0;
+}
+#text{
+    width: 38vw;
+    background-color: rgb(114, 194, 114);
+    font-family: monospace;
+    color: gray;
+}
+#nombre{
+    width: 38vw;
+    background-color: rgb(114, 194, 114);
+    font-family: monospace;
+    color: gray;
+}
+button{
+    width: 15vw;
+}
